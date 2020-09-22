@@ -1,0 +1,382 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #171B1E;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F1C26;
+    height: 104px;
+}
+
+.conthead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+.alinhahead{
+    display: flex;
+    align-items: center;
+}
+
+.marca > img{
+    width: 31px;
+    height: 31px;
+    padding-right: 1.5em;
+}
+
+.pesquisa > input{
+    width: 456px;
+    height: 56px;
+    background-color: #171B1E;
+    border: none;
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+.headerbotao{
+    color: #FFFFFF;
+    font-size: 15px;
+    display: flex;
+}
+
+.headerbotao > div > img{
+    width: 18px;
+    height: 18px;
+    padding-right: 10px;
+}
+
+.bemvindo{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.perfil > img{
+    height:56px;
+    width:56px;
+    padding-left: 1em;
+}
+
+.corpo{
+    margin-left: 12%;
+}
+
+.conteudocorpo{
+    display: flex;
+}
+
+.filmes{
+    color:#FFFFFF;
+    padding-top: 3em;
+}
+
+.texto{
+    font-size:24px;
+    padding-bottom: 16px;
+}
+
+.advert > img{
+    width: 900px;
+}
+
+.container{
+    width: 980px;
+}
+
+.container > .topfilmes{
+    display: flex;
+}
+
+.container > .outrosfilmes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poster{
+    position: relative;
+    margin-right: 24px;
+    margin-bottom: 10px;
+}
+
+.poster > img{
+    width: 168px;
+    height: 301px;
+}
+
+.poster > .transparencia{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 30%;
+    margin: 0px;
+    width: 168px;
+    height: 301px;
+    background-color: black;
+}
+
+.poster > .favorito > img{
+    margin-top: 1px;
+    margin-left: 1px;
+    position: absolute;
+    margin: 0px;
+}
+
+.favorito > img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 12px;
+    left: 9px;
+}
+
+.titulo{
+    position: absolute;
+    left: 8px;
+    bottom: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.nota{
+    display: flex;
+    color: #FBCD6E;
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+    font-size: 12px;
+}
+
+.nota > img{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: -15px;
+}
+
+.addsaco{
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A785ED;
+    height: 26px;
+    width: 152px;
+    font-size: 12px;
+}
+
+.addsaco > .botaosaco{
+    margin-left: 8px;
+    color: white;
+}
+
+.addsaco > div{
+    margin-right: 8px;
+}
+
+.sacola{
+    width: 312px;
+    background-color: #111416;
+    align-self: flex-start;
+}
+
+.sacola > .header{
+    color: white;
+    background-color: #A785ED;
+    width: 312px;
+    height: 72px;
+}
+
+.sacola > .header > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.sacola > .conteudo{
+    color: white;
+}
+
+.sacola > .conteudo > img{
+    width: 154px;
+    position: relative;
+    top: 90px;
+    left: 20%;
+    margin-bottom: 6em;
+}
+
+.texto1{
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    left: 12%;
+}
+
+.texto2{
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    left: 25%;
+}
+
+.texto3{
+    position: relative;
+    left: 14px;
+    color: white;
+    font-size: 12px;
+}
+
+.codigopromo{
+    position: relative;
+}
+
+.codigopromo > input{
+    width: 280px;
+    height: 40px;
+    background-color: #0d0d0e;
+    border: none;
+    color: #FFFFFF;
+    margin: 1em;
+
+}
+
+.item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.miniposter{
+    display: flex;
+    align-items: center;
+}
+
+.dados{
+    padding-left: 10px;
+}
+
+.item > .miniposter > img{
+    width:43px;
+    height:67px;
+}
+
+.quantidade{
+    display: flex;
+    align-items: center;
+}
+
+.item > .quantidade > img{
+    padding: 7px;
+    width: 24px;
+    height: 24px;
+}
+
+.confirmar{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-color: #E25EBF;
+    color: white;
+    width: 280px;
+    height: 56px;
+    margin: 1em;
+    border: 0;
+}
+
+.confirmar > div{
+    padding-top: 1.1em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+
+.filtros{
+    display: flex;
+    
+}
+
+.ligado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    width: 164px;
+    height: 38px;
+    margin-right: 24px;
+    border: 2px solid #E183C8;
+    color: #E183C8;
+    background-color: rgba(225, 131, 200, 0.2);;
+}
+
+.desligado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    width: 164px;
+    height: 38px;
+    opacity: 30%;
+    margin-right: 24px;
+    margin-bottom: 20px; 
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.info {
+    width: 744px;
+    padding: 1em;
+    background-color: #131416;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.info > .tituloinfo {
+    font-size: 32px;
+    color: white;
+} 
+
+.info > .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+.formulario > .codigopromo {
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.formulario > .codigopromo > input {
+    margin: 0em;
+    width: 328px;
+    height: 40px
+}
+
+.formulario > .codigopromo > .texto3 {
+    left: 0px;
+}
+
+.sucesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131416;
+    width: 784px;
+    height: 443px;
+    color: white;
+}
+
+.sucessocontainer > div > img {
+    width: 81px;
+    height: 81px;
+    justify-content: center;
+    display: flex;
+}

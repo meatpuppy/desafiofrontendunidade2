@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="desafio.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="conthead">
+        <div class="alinhahead">
+          <div class="marca">
+            <img src="imagens/marca.png" />
+          </div>
+
+          <div class="pesquisa">
+            <input type="text" placeholder="Pesquise filmes..." />
+          </div>
+        </div>
+
+        <div class="headerbotao">
+          <div>
+            <img src="imagens/favoritos.png" />
+          </div>
+          <div>Favoritos</div>
+        </div>
+
+        <div class="headerbotao">
+          <div>
+            <img src="imagens/promoções.png" />
+          </div>
+          <div>Promoções</div>
+        </div>
+
+        <div>
+          <div class="bemvindo">
+            <div>Bem vindo Victor</div>
+            <div class="perfil">
+              <img src="imagens/perfil.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="corpo" style="margin-top: 74px">
+      <form>
+        <div class="conteudocorpo">
+        
+          <div class="formulario">
+            <div class="info">
+              <div class="tituloinfo">Informações iniciais</div>
+              <div class="formulario">
+                <div class="codigopromo">
+                  <div class="texto3">Insira seu nome completo</div>
+                  <input
+                    required
+                    id="a1"
+                    type="text"
+                    placeholder="Ex: Leam Carvalho Oliveira"
+                  />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">Insira seu e-mail</div>
+                  <input
+                    required
+                    id="a2"
+                    type="email"
+                    placeholder="Ex: xxxx@gmail.com"
+                  />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">Telefone</div>
+                  <input
+                    required
+                    id="a3"
+                    type="tel"
+                    placeholder="+`55 (71) 9"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="info">
+              <div class="tituloinfo">Informações de endereço</div>
+              <div class="formulario">
+                <div class="codigopromo">
+                  <div class="texto3">CEP</div>
+                  <input
+                    required
+                    id="b1"
+                    type="text"
+                    placeholder="Ex: 00000-00"
+                  />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">País</div>
+                  <input
+                    required
+                    id="b2"
+                    type="text"
+                    placeholder="Ex: Brasil"
+                  />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">Cidade</div>
+                  <input
+                    required
+                    id="b3"
+                    type="text"
+                    placeholder="Ex: Salvador"
+                  />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">Bairro</div>
+                  <input required id="b4" type="text" placeholder="Ex: Graça" />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">Número</div>
+                  <input required id="b5" type="number" placeholder="Ex: 00" />
+                </div>
+              </div>
+            </div>
+
+            <div class="info">
+              <div class="tituloinfo">Informações de pagamento</div>
+              <div class="formulario">
+                <div class="codigopromo">
+                  <div class="texto3">Número do cartão</div>
+                  <input
+                    required
+                    id="c1"
+                    type="number"
+                    placeholder="Ex: 00000 00000 0000"
+                  />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">Nome do cartão</div>
+                  <input
+                    required
+                    id="c2"
+                    type="text"
+                    placeholder="Ex: LEAM CARVALHO"
+                  />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">Data de expiração</div>
+                  <input required id="c3" type="text" placeholder="MM/YYYY" />
+                </div>
+                <div class="codigopromo">
+                  <div class="texto3">cvv</div>
+                  <input required id="c4" type="number" placeholder="000" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sacola">
+            <div class="header">
+              <img src="imagens/sacolaicone.png" />
+              <div>Resumo dos pedidos</div>
+            </div>
+            <div class="conteudo">
+              <div class="texto1">Sua sacola está vazia</div>
+              <div class="texto2">Adicione filmes agora</div>
+              <img src="imagens/sacolavazia.png" />
+            </div>
+            <div class="codigopromo">
+              <div class="texto3">Insira seu cupom</div>
+              <input type="text" placeholder="Cupom de desconto" />
+            </div>
+
+            <div class="confirmarcontainer"></div>
+          </div>
+        
+        </div>
+      </form>
+    </div>
+
+    <script src="form.js"></script>
+  </body>
+</html>
